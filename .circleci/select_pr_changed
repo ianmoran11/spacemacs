@@ -11,6 +11,7 @@
 ##
 ## License: GPLv3
 
+skip_when_branch_update
 fail_when_undefined_pr_number
 
 files_json=$(curl "${pr_file_list_URL}" --silent)
